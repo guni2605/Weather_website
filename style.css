@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins&family=Quicksand:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: playfair display;
+}
+body{
+    background-color: #222;
+}
+.welcome-msg{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 25px;
+    display: none;
+}
+.card{
+   height: 100vh;
+   width: 100vw;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    padding: 20px 35px ;
+    text-align: center;
+    
+}
+.search {
+    /* margin: 40px; */
+    margin-left: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.search input{
+    border: 0;
+    outline: 0;
+    width: 90%;
+    height: 50px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background: #ebfffc;
+    color: #555;
+    font-size: 1.2rem;
+
+
+}
+.search button{
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    /* margin-top: 10px; */
+}
+.col{
+    display: flex;
+    align-items: center;
+}
+.weather h1{
+    font-size: 60px;
+    font-weight: 500;
+
+}
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.col p{
+    margin-left: 15px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+   /* background-color: blueviolet; */
+}
+
+.weather{
+    display: none;
+}
